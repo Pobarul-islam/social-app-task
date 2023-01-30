@@ -54,8 +54,6 @@ router.get('/id:', async (req, res) => {
   }
 });
 
-// get all user
-
 // follow a user
 
 router.put('/:id/follow', async (req, res) => {
